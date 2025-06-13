@@ -1,1 +1,0 @@
-# settingmikrotik.github.io
