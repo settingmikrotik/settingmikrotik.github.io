@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow certain directories (example)
+# Disallow: /admin/
+# Disallow: /private/
+# Disallow: /temp/
+
+Sitemap: https://vnetnetwork.my.id/sitemap.xml

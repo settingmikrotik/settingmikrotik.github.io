@@ -1,0 +1,33 @@
+.my-slider .slider-container {
+  overflow: hidden;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.my-slider .slider-track {
+  display: flex;
+  width: fit-content;
+  flex-wrap: nowrap;
+  animation: scroll-left 25s linear infinite;
+}
+
+.my-slider .slider-track.reverse {
+  animation: scroll-right 25s linear infinite;
+}
+
+.my-slider .slider-track img {
+  height: 100px;
+  margin: 0 10px;
+  border-radius: 10px;
+  flex-shrink: 0;
+}
+
+@keyframes scroll-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes scroll-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
